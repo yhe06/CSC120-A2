@@ -23,10 +23,10 @@ class Computer:
     price: int = 0
 
     def __init__(self, desc: str, processor: str, harddrive: int, memory: int, OS: str, year: int, amt: int):
-        '''initializes a new Computer object.
+        '''initializes a new Computer object with hardware, operating system, year made, and price. 
 
         args:
-            param 1 
+
         '''
         self.description = desc
         self.processor_type = processor
